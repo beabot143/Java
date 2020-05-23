@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'BankingAppGUI.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iQmFua2luZ0FwcEdVSS5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5CYW5raW5nQXBwR1VJPC90aXRsZT4NCiAgICA8dmVuZG9yPkJldGhhbnk8L3ZlbmRvcj4NCiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+DQogICAgPG9mZmxpbmUtYWxsb3dlZC8+DQogIDwvaW5mb3JtYXRpb24+DQogIDxyZXNvdXJjZXM+DQogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPg0KICAgIDxqYXIgaHJlZj0iQmFua2luZ0FwcEdVSS5qYXIiIHNpemU9IjE1ODEyIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogIDwvcmVzb3VyY2VzPg0KICA8YXBwbGV0LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjb20uamF2YWZ4Lm1haW4uTm9KYXZhRlhGYWxsYmFjayIgIG5hbWU9IkJhbmtpbmdBcHBHVUkiID4NCiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+DQogIDwvYXBwbGV0LWRlc2M+DQogIDxqZng6amF2YWZ4LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJiYW5raW5nYXBwZ3VpLkJhbmtpbmdBcHBHVUkiICBuYW1lPSJCYW5raW5nQXBwR1VJIiAvPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedbankingappgui() {
+        dtjava.embed(
+            {
+                id : 'bankingappgui',
+                url : 'BankingAppGUI.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iQmFua2luZ0FwcEdVSS5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5CYW5raW5nQXBwR1VJPC90aXRsZT4NCiAgICA8dmVuZG9yPkJldGhhbnk8L3ZlbmRvcj4NCiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+DQogICAgPG9mZmxpbmUtYWxsb3dlZC8+DQogIDwvaW5mb3JtYXRpb24+DQogIDxyZXNvdXJjZXM+DQogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPg0KICAgIDxqYXIgaHJlZj0iQmFua2luZ0FwcEdVSS5qYXIiIHNpemU9IjE1ODEyIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogIDwvcmVzb3VyY2VzPg0KICA8YXBwbGV0LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJjb20uamF2YWZ4Lm1haW4uTm9KYXZhRlhGYWxsYmFjayIgIG5hbWU9IkJhbmtpbmdBcHBHVUkiID4NCiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+DQogIDwvYXBwbGV0LWRlc2M+DQogIDxqZng6amF2YWZ4LWRlc2MgIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBtYWluLWNsYXNzPSJiYW5raW5nYXBwZ3VpLkJhbmtpbmdBcHBHVUkiICBuYW1lPSJCYW5raW5nQXBwR1VJIiAvPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedbankingappgui);
+</script>
+
+</head><body>
+<h2>Test page for <b>BankingAppGUI</b></h2>
+  <b>Webstart:</b> <a href='BankingAppGUI.jnlp' onclick="return launchApplication('BankingAppGUI.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
